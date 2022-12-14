@@ -1,0 +1,34 @@
+.trust-content {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 80px 0;
+  justify-content: center;
+}
+.trust-man {
+  width: 22%;
+  min-width: 260px;
+  text-align: right;
+  margin: 20px 0;
+}
+.trust-man img {
+  width: 100%;
+}
+.trust-man b {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: right;
+  margin: 18px 0 14px;
+  color: #333333;
+  display: inline-block;
+}
+.trust-man p{
+    font-weight: 500;
+font-size: 18px;
+line-height: 29px;
+text-align: right;
+
+color: rgba(51, 51, 51, 0.4);
+}

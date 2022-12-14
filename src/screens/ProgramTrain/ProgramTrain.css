@@ -1,0 +1,112 @@
+.program-train-page {
+  text-align: center;
+  position: relative;
+}
+.program-train-content {
+  margin-top: -70px;
+}
+.program-train-page .img-train img {
+  width: 100%;
+  height: 520px;
+}
+ .box-program-train {
+  width: 85%;
+  margin: auto;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-color: #fff;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  text-align: right;
+  padding: 64px 90px;
+}
+ .box-program-train b {
+  color: #4f6daa;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+}
+.box-program-train p {
+  color: #33333380;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  word-spacing: -1px;
+  letter-spacing: -1px;
+  padding-top: 22px;
+}
+.program-train-page .program {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.program-train-page .program .program-img {
+  width: 560px;
+}
+.program-train-page .program .program-detail {
+  text-align: right;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 60px 0;
+}
+.program-train-page .program .program-img img {
+  width: 100%;
+  height: 350px;
+}
+.program-train-page .program .program-detail .text-program {
+  width: 120px;
+  background: #f6f6f6;
+  border-radius: 74px;
+  text-align: center;
+  padding: 11px 0;
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f6daa;
+}
+
+.programs-train .programs-list .programs-item .text {
+  font-size: 18px;
+}
+
+.program-train-page .program .program-detail b {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  color: #333333;
+  margin-top: 30px;
+}
+.program-train-page .program .program-detail p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #33333366;
+  margin-top: 20px;
+}
+
+.program-train-page .program .program-detail button {
+  width: 205px;
+  height: 50.59px;
+  background: #4f6daa;
+  border-radius: 37px;
+  margin: 40px 0;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .program-train-content{
+    margin-top: 20px;
+  }
+}

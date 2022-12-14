@@ -1,0 +1,90 @@
+.EmailPage {
+  text-align: right;
+  padding: 4rem 3rem;
+  background-color: #f8f8f8;
+  margin-top: 140px;
+}
+.EmailPage .email-content {
+  padding: 3rem;
+  background-color: #fff;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+}
+.EmailPage .email-content b {
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: right;
+
+  color: #333333;
+}
+.EmailPage .email-content p {
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 42px;
+  /* or 168% */
+
+  text-align: right;
+
+  color: rgba(51, 51, 51, 0.5);
+}
+.email-content .email-item {
+  height: 80px;
+  left: 1363.77px;
+  top: 9379px;
+  flex-direction: row-reverse;
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+ 
+.email-content .email-item input {
+  width: 80%;
+  border: 0;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 42px;
+  outline: 0;
+  /* or 168% */
+
+  text-align: right;
+  height: 100%;
+
+  color: #3333334D
+}
+.email-content .email-item button {
+  height: 50px;
+  width: 180px;
+  border-radius: 31.5px;
+  -webkit-border-radius: 31.5px;
+  -moz-border-radius: 31.5px;
+  -ms-border-radius: 31.5px;
+  -o-border-radius: 31.5px;
+  background-color: #4f6daa;
+  border: 0;
+  color: #fff;
+  margin: 0 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+
+ }

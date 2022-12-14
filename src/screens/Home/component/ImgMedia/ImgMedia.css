@@ -1,0 +1,95 @@
+.ImgMedia {
+  text-align: center;
+  background-color: #f9f9f999;
+  padding: 85px 20px;
+}
+.container-media-swipe {
+  margin-top: 69px;
+  position: relative;
+}
+.container-media-swipe .slide .item-media img {
+  width: 33vw;
+  height: 300px;
+  position: relative;
+  z-index: -1;
+  margin-top: 50px;
+  padding: 0 17px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.container-media-swipe .selected .item-media img {
+  border-radius: 20px;
+  margin: auto;
+  position: relative;
+  width: 45vw;
+  height: 402px;
+  transform: translate(-15%);
+  z-index: 20;
+  -webkit-transform: translate(-15%);
+  -moz-transform: translate(-15%);
+  -ms-transform: translate(-15%);
+  -o-transform: translate(-15%);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.container-media-swipe p {
+  position: absolute;
+  top: 80%;
+  z-index: 21;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+  line-height: 42px;
+}
+.container-media-swipe .slide .item-media p{
+    display: none;
+}
+.container-media-swipe .selected .item-media p{
+    display: flex !important;
+}
+.container-media-swipe .carousel.carousel-slider .control-arrow{
+    width: 50px ;
+    height: 50px;
+    top: 45% !important;
+    margin:  0 10%;
+    background-color: #FFFFFF80;
+    /* color: #000; */
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.carousel .control-prev.control-arrow:before{
+    content: "←";
+    border: 0;
+    font-size: 40px;
+    margin: -8px 0 0 0;
+    color: #fff;
+    opacity: 100%;
+}
+.carousel .control-next.control-arrow:before{
+    content: "→";
+    border: 0;
+    font-size: 40px;
+    margin: -8px 0 0 0;
+    color: #fff;
+    opacity: 100%;
+}
+@media only screen and (max-width: 800px) {
+  .container-media-swipe .slide .item-media img{
+    width: 100% !important;
+    transform: translate(0px,0px);
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
+    -ms-transform: translate(0px,0px);
+    -o-transform: translate(0px,0px);
+}
+}

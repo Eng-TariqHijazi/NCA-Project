@@ -1,0 +1,33 @@
+.StudentsAcademy {
+  text-align: right;
+}
+.StudentsAcademy .img-student {
+  width: 100%;
+}
+.StudentsAcademy .img-student img {
+  border-radius: 23px;
+  width: 100%;
+}
+.StudentsAcademy .detail-student {
+  margin: 70px 0;
+}
+.StudentsAcademy .detail-student b {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: right;
+
+  color: #a41d3d;
+}
+.StudentsAcademy .detail-student p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  color: rgba(51, 51, 51, 0.5);
+  margin: 21px 0;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+}
+.studentsAcademy-content{
+    padding: 40px 0 100px;
+}

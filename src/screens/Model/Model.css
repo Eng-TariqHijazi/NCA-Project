@@ -1,0 +1,102 @@
+.Model .model-content {
+  text-align: center;
+  padding: 40px 0;
+}
+.model-form {
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 60px 90px 60px 25px;
+  margin: 50px 0;
+}
+.model-form .item-input {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.model-form   label {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.model-form label p:first-child {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.model-form label p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  color: #3333334d;
+  margin-right: 10px;
+}
+.model-form .attach-input {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.model-form .item-input input , select,.attach-input .input{
+  width: 100%;
+  height: 64px;
+  /* background: #fafafa; */
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  text-align: right;
+  padding: 0 20px;
+  margin-top: 10px;
+  outline: 0;
+
+  font-size: 20px;
+}
+.attach-input input{
+  display: none;
+}
+.attach-input .input{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-input .input {
+  text-align: left;
+  position: relative;
+}
+.item-input .icon {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right:2px solid #33333340
+}
+.item-input .icon p {
+  color: #33333380;
+  font-weight: 400;
+  font-size: 20px;
+
+  padding: 0 8px;
+}
+@media only screen and (max-width: 800px) {
+  .model-form .item-input ,.model-form .attach-input{
+    width:90%;
+  }
+}
+@media only screen and (max-width: 520px) {
+   .model-form .attach-input .icon,.model-form .item-input .icon{
+    display: none;
+  }
+}

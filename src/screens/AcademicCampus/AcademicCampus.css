@@ -1,0 +1,26 @@
+.content-campus{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 100px 0;
+}
+.content-campus .aim{
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.08);
+    width: 380px;
+    padding: 0;
+    height: 320px;
+    justify-content: center;
+}
+.content-campus .aim .img{
+    border: 1px solid #EBEBEB;
+    filter: drop-shadow(0px 5px 11px rgba(79, 109, 170, 0.12));
+    border-radius: 21px;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+.content-campus .aim p{
+    font-size: 18px;
+    margin-top: 30px;
+}

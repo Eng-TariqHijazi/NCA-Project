@@ -1,0 +1,13 @@
+.Stats{
+    padding: 120px 0 100px 0;
+    text-align: center;
+    background-color: #F9F9F999;
+}
+.stats-list{
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+gap:18px ;
+margin: 50px 0;
+flex-wrap: wrap;
+}
